@@ -1,0 +1,36 @@
+name: uds
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - defaults::python
+  - defaults::notebook
+  - defaults::jupyterlab
+  - cenpy
+  - numpy==1.23.5    # version is for partridge compatibility, until this issue is resolved:https://github.com/remix/partridge/issues/77 
+  - pandas
+  - geopandas
+  - contextily
+  - requests
+  - shapely
+  - bs4
+  - matplotlib
+  - seaborn
+  - PyPDF2
+  - pdfminer.six
+  - nltk
+  - gensim
+  - openpyxl
+  - pyLDAvis
+  - tweepy
+  - textblob
+  - scikit-learn
+  - pandasql
+  - sqlalchemy==1.4.46 # version is for pandasql compatibility, until this issue is resolved: https://stackoverflow.com/questions/75315117/attributeerror-connection-object-has-no-attribute-connect-when-use-df-to-sq
+  - shap
+  - praw
+  - wordcloud
+  - pip
+  - pip:
+    - sodapy
+    - partridge

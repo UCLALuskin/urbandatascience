@@ -1,0 +1,6 @@
+rider_category_id,rider_category_name,min_age,max_age,eligibility_url
+senior,Seniors age 62 and over,62,,https://www.bigbluebus.com/Fares/Fare-Information.aspx
+discount,Persons with disabilities,,,https://www.bigbluebus.com/Fares/Fare-Information.aspx
+medicare,Medicare cardholders,,,https://www.bigbluebus.com/Fares/Fare-Information.aspx
+youth,Youth with valid ID,5,18,https://www.bigbluebus.com/Fares/Fare-Information.aspx
+children,Children under 5 with fare-paying adult,,4,https://www.bigbluebus.com/Fares/Fare-Information.aspx

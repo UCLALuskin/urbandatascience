@@ -1,0 +1,21 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+3554,6216179,1,Main St & Santa Monica Blvd/UCLA,,3,http://bigbluebus.com/Routes-and-Schedules/Route-1.aspx,F8971D,000000
+3555,6216179,2,Wilshire Blvd/UCLA,,3,http://bigbluebus.com/Routes-and-Schedules/Route-2.aspx,552988,FFFFFF
+3556,6216179,3,Lincoln Blvd/LAX,,3,http://bigbluebus.com/Routes-and-Schedules/Route-3.aspx,D31245,FFFFFF
+3558,6216179,5,Olympic Blvd,,3,http://bigbluebus.com/Routes-and-Schedules/Route-5.aspx,66B360,000000
+3560,6216179,7,Pico Blvd,,3,http://bigbluebus.com/Routes-and-Schedules/Route-7.aspx,9397CB,000000
+3561,6216179,8,Ocean Park Blvd & Westwood Bl/UCLA,,3,http://bigbluebus.com/Routes-and-Schedules/Route-8.aspx,005984,FFFFFF
+3562,6216179,9,Pacific Palisades,,3,http://bigbluebus.com/Routes-and-Schedules/Route-9.aspx,EB4498,000000
+3563,6216179,R10,Downtown LA Freeway Express,,3,http://bigbluebus.com/Routes-and-Schedules/Rapid-10.aspx,00AFDB,FFFFFF
+3564,6216179,R12,Venice/Westwood Sta/UCLA Rapid,,3,http://bigbluebus.com/Routes-and-Schedules/Rapid-12.aspx,C298C6,000000
+3565,6216179,14,Bundy Dr & Centinela Ave,,3,http://bigbluebus.com/Routes-and-Schedules/Route-14.aspx,54301A,FFFFFF
+3566,6216179,15,Barrington Ave,,3,http://bigbluebus.com/Routes-and-Schedules/Route-15.aspx,C1D82F,000000
+3567,6216179,16,Wilshire Bl/Bundy Dr-Marina del Rey,,3,http://bigbluebus.com/Routes-and-Schedules/Route-16.aspx,F49AC1,000000
+3568,6216179,17,Culver City Sta - UCLA,,3,http://bigbluebus.com/Routes-and-Schedules/Route-17.aspx,FEC221,000000
+3569,6216179,18,UCLA - Marina del Rey,,3,http://bigbluebus.com/Routes-and-Schedules/Route-18.aspx,76174D,FFFFFF
+3570,6216179,R3,Lincoln Blvd/LAX Rapid,,3,http://bigbluebus.com/Routes-and-Schedules/Rapid-3.aspx,8FD2CA,000000
+3571,6216179,R7,Pico Blvd Rapid,,3,http://bigbluebus.com/Routes-and-Schedules/Rapid-7.aspx,F5866C,000000
+3572,6216179,E7,Pico Blvd Express,,3,http://bigbluebus.com/Routes-and-Schedules/Route-E7.aspx,008D5C,FFFFFF
+3573,6216179,41,SMC- 17th St Station- Montana,,3,http://bigbluebus.com/Routes-and-Schedules/Route-41.aspx,E11B22,FFFFFF
+3575,6216179,43,26th Street,,3,http://bigbluebus.com/Routes-and-Schedules/Route-43.aspx,0092A5,FFFFFF
+3576,6216179,44,17th St Sta - SMC Bundy Campus,,3,http://bigbluebus.com/Routes-and-Schedules/Route-44.aspx,E87D1E,000000

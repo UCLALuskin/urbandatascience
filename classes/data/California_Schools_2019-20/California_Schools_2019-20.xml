@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>California Public Schools 2019-20</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This layer serves as the authoritative geographic data source for California's K-12 public school locations during the 2019-20 academic year. Schools are mapped as point locations and assigned coordinates based on the physical address of the school facility. The school records are enriched with additional demographic and performance variables from the California Department of Education's data collections. These data elements can be visualized and examined geographically to uncover patterns, solve problems and inform education policy decisions.The schools in this file represent a subset of all records contained in the CDE's public school directory database. This subset is restricted to K-12 public schools that were open in October 2019 to coincide with the official 2019-20 student enrollment counts collected on Fall Census Day in 2019 (first Wednesday in October). This layer also excludes nonpublic nonsectarian schools and district office schools.The CDE's California School Directoryprovides school location other basic school characteristics found in the layer's attribute table. The school enrollment, demographic and program data are collected by the CDE through the California Longitudinal Achievement System (CALPADS) and can be accessed as publicly downloadable files from the Data &amp;amp; Statisticsweb page on the CDE website. Schools are assigned X, Y coordinates using a quality controlled geocoding and validation process to optimize positional accuracy. Most schools are mapped to the school structure or centroid of the school property parcel and are individually verified using aerial imagery or assessor's parcels databases. Schools are assigned various geographic area values based on their mapped locations including state and federal legislative district identifiers and National Center for Education Statistics (NCES) locale codes.</abstract>
+            <purpose>California public school locations with school-level demographics for the 2019-20 academic year</purpose>
+        </descript>
+        <status>
+            <update>Annually</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-124.9999999999789</westbc>
+                <eastbc>-113.99999999998074</eastbc>
+                <northbc>41.99999999999288</northbc>
+                <southbc>31.99999999999455</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>location</themekey>
+                <themekey>society</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>master</themekey>
+                <themekey>school</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>California Department of Education</cntorg>
+                    <cntper>CDE GIS</cntper>
+                </cntorgp>
+                <cntpos>GIS Specialist</cntpos>
+            </cntinfo>
+        </ptcontac>
+        <datacred>California Department of Education (CDE), United States Census Bureau</datacred>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.0.12790</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>10040</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>California Public Schools</enttypl>
+                <enttypd>California public school locations for the 2018-19 school year supplemented with school-level demographics from the California Department of Education's (CDE) data collections.</enttypd>
+                <enttypds>California Department of Education</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Coordinates defining the features.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Year</attrlabl>
+                <attrdef>The academic year when data elements contained in this file are effective.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>FedID</attrlabl>
+                <attrdef>The 12 digit code derived from the US Department of Education's Common Core of Data (CCD) and used by federal agencies to uniquely identify all public schools nationwide.  The first 2 digits identify the state, the next 5 digits identify the school district and the final 5 digits identify the school.</attrdef>
+                <attrdefs>California Department of Education, National Center for Education Statistics</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CDSCode</attrlabl>
+                <attrdef>The 14 digit code developed and maintained by the California Department of Education that serves to uniquely identify each school and district in the state.  The first two digits identify the county, the next five digits identify the school district and the last seven digits identify the school.  School districts will have a CDS code ending in '0000000', indicating the feature is a district and not a school.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CDCode</attrlabl>
+                <attrdef>The 7 digit code developed and maintained by the California Department of Education that serves to uniquely identify each school district in the state.  The first two digits identify the county and the next five digits identify the school district.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SCode</attrlabl>
+                <attrdef>The 7 digit code developed and maintained by the California Department of Education that serves to uniquely identify each school in the state. </attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CountyName</attrlabl>
+                <attrdef>The name of the county associated with the public school district that operates the school.  This is usually, but not always, the same as the county where the school is physically located.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>DistrictName</attrlabl>
+                <attrdef>The name of the school district that operates the school.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SchoolName</attrlabl>
+                <attrdef>The name of the school.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SchoolType</attrlabl>
+                <attrdef>A description of the school type assigned to each school that distinguishes schools based on the populations they serve.  The field values are derived from the "SchoolType" field in the California Department of Education (CDE) school directory. </attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Status</attrlabl>
+                <attrdef>The operational status of the school that identifies whether the school is active, closed or pending. </attrdef>
+            </attr>
+            <attr>
+                <attrlabl>OpenDate</attrlabl>
+                <attrdef> The date the school opened.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ClosedDate</attrlabl>
+                <attrdef>The date the school closed</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SchoolLevel</attrlabl>
+                <attrdef> The level of instruction based on grades offered at the school.  These values represent a modified version of those found in the California School Directory and do not include preschool or adult levels.
+Elementary
+Elementary-High
+Middle
+High
+</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GradeLow</attrlabl>
+                <attrdef>The lowest grade offered or supported by the school</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GradeHigh</attrlabl>
+                <attrdef>The highest grade offered or supported by the school</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Charter</attrlabl>
+                <attrdef>A flag that identifies whether a school is a charter school. 
+
+Y = The school is a charter 
+N = The school is not a charter
+</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CharterNum</attrlabl>
+                <attrdef>The 4 digit number assigned to a charter school.  A blank value indicates the school is not a charter school.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FundingType</attrlabl>
+                <attrdef>A description of a charter school's source of funding.
+
+Locally funded =  Charter school receives their funding through their authorizing district or county office.
+Directly funded = Charter school receives funding directly from the state.
+Blank = School is not a charter school
+</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Virtual</attrlabl>
+                <attrdef>The type of virtual instruction offered by the school.  Virtual instruction is instruction in which students and teachers are separated by time and/or location, and interaction occurs via computers and/or telecommunications technologies. 
+
+F = Exclusively Virtual: The school has no physical building where students meet with each other or with teachers, all instruction is virtual. 
+V = Primarily Virtual: The school focuses on a systematic program of virtual instruction but includes some physical meetings among students or with teachers. 
+C = Primarily Classroom: The school offers virtual courses but virtual instruction is not the primary means of instruction. 
+N = Not Virtual: The school does not offer any virtual instruction. 
+Blank = The type of virtual instruction offered by the school is not known, or the record is for a district or county office. Data are only available at the school level, however not all schools in this file are required to provide this information.
+</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Magnet</attrlabl>
+                <attrdef>A flag that identifies whether a school is a magnet school and/or provides a magnet program. 
+
+Y = The school is a magnet school and/or offers a magnet program. 
+N = The school is not a magnet school and/or does not offer a magnet program.
+</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>TitleIStatus</attrlabl>
+                <attrdef>A flag that identifies whether a school receives Title I funding.
+
+Y = School receives Title I funding in the year reported
+N = School does not receive Title I funding in the year reported
+</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>DASS</attrlabl>
+                <attrdef>A flag that identifies whether a school participates in the Dashboard Alternative School Status (DASS) program.
+
+Y = School participates in the DASS program
+N = School does not participate in the DASS program
+</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AssistStatusESSA</attrlabl>
+                <attrdef>The assistance status category used to determine a school's eligibility for support and improvement.
+
+ATSI = School is eligible to receive assistance in the Additional Targeted Support and Improvement (ATSI) category based  on one or more student group(s) continuing to underperform while in the Targeted Support and Improvement  (TSI) category.
+CSI Low Perform = Title I-funded school is eligible to receive assistance in the CSI category based on the criteria for lowest performing school.
+CSI Grad = High school is eligible to receive assistance in the Comprehensive Support and Improvement (CSI) category based on low graduation rate.
+General Assistance = School is eligible to receive general assistance.
+</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Street</attrlabl>
+                <attrdef>The physical address of the school.  This address is used as the address input field for geocoding the school record and assigning X,Y coordinates</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>City</attrlabl>
+                <attrdef>The city in which the school is physically located.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Zip</attrlabl>
+                <attrdef>The zip code in which the school is physically located.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>State</attrlabl>
+                <attrdef>The state in which the school is physically located.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CongUS</attrlabl>
+                <attrdef>The US congressional district assigned to the school based on the location of the school site and the intersecting legislative district territory.  The 53 congressional districts within the State of California represent the geographically defined territories used for electing members to the  U.S. House of Representatives.  The current U.S. Congressional boundaries in California were determined by the California Citizens Redistricting Commission following the completion of the 2010 United States Census and will remain valid until 2020.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SenateCA</attrlabl>
+                <attrdef>The California senate district assigned to the school based on the location of the school site and the intersecting legislative district territory.  The 40 state senate districts are the geographically defined territories used for electing members to the upper chamber of the California State Legislature.  The current state senate boundaries were determined by the California Citizens Redistricting Commission following the completion of the 2010 U.S Census count and will remain valid until 2020.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AssemblyCA</attrlabl>
+                <attrdef>The California state assembly district assigned to the school based on the location of the school site and the intersecting legislative district territory.  The 80 California state assembly districts represent the geographically defined territories used for electing members to the lower chamber of the California State Legislature.  The current state assembly boundaries were determined by the California Citizens Redistricting Commission following the completion of the 2010 United States Census and will remain valid until 2020.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Locale</attrlabl>
+                <attrdef>A general geographic indicator developed by the National Center for Education Statistics (NCES) to classify the type of area where a school is located.   Locale codes are based on a twelve-category framework that includes four primary classifications (city, suburban, town, and rural) that each have three sub-types. </attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Latitude</attrlabl>
+                <attrdef>The angular distance (expressed in degrees) between the location of the school and the equator measured north to south.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Longitude</attrlabl>
+                <attrdef>The angular distance (expressed in degrees) between the location of the school and the prime meridian measured from west to east.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>LocSource</attrlabl>
+                <attrdef>The source method used for assigning X,Y coordinates in the "Latitude" and "Longitude" fields.  
+
+ArcGIS World Geocode = Coordinate values are assigned using ESRI's world geocoding service.
+CDE Manual Geocode = Locations placed manually on the map based on aerial imagery when the automated service does not provide the needed locational accuracy.
+NCES  = Geocodes for school district administrative offices are based on data reported in the NCES Common Core of Data (CCD), an annual collection of administrative data about enrollment, staffing, and program participation for schools, local education agencies (LEAs), and state education agencies (SEAs). SEAs report these data to the U.S. Department of Education in a series of file submissions throughout the year. </attrdef>
+            </attr>
+            <attr>
+                <attrlabl>EnrollTotal</attrlabl>
+                <attrdef>The total number of students enrolled in the school on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AAcount </attrlabl>
+                <attrdef>The enrollment count of African American students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AApct </attrlabl>
+                <attrdef>The enrollment rate of African American students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AIcount</attrlabl>
+                <attrdef>The enrollment count of American Indian students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AIpct</attrlabl>
+                <attrdef>The enrollment rate of American Indian students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AScount </attrlabl>
+                <attrdef>The enrollment count of Asian students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ASpct </attrlabl>
+                <attrdef>The enrollment rate of Asian students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FIcount </attrlabl>
+                <attrdef>The enrollment count of Filipino students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FIpct</attrlabl>
+                <attrdef>The enrollment rate of Filipino students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>HIcount</attrlabl>
+                <attrdef>The enrollment rate of Hispanic students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>HIpct</attrlabl>
+                <attrdef>The enrollment rate of Hispanic students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PIcount</attrlabl>
+                <attrdef>The enrollment count of Pacific Islander students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PIpct</attrlabl>
+                <attrdef>The enrollment rate of Pacific Islander students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>WHcount</attrlabl>
+                <attrdef>The enrollment count of white students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>WHpct</attrlabl>
+                <attrdef>The enrollment rate of white students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MRcount</attrlabl>
+                <attrdef>The enrollment count of students reporting two or more races on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MRpct</attrlabl>
+                <attrdef>The enrollment rate of students reporting two or more races on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NRcount</attrlabl>
+                <attrdef>The enrollment count of students not reporting a race on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+                <attrmfrq>005</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>NRpct</attrlabl>
+                <attrdef>The enrollment rate of students not reporting a race on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELcount</attrlabl>
+                <attrdef>The enrollment count of English Learner students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELpct</attrlabl>
+                <attrdef>The enrollment rate of English Learner students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FOScount</attrlabl>
+                <attrdef>The enrollment count of foster students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FOSpct</attrlabl>
+                <attrdef>The enrollment rate of foster students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>HOMcount</attrlabl>
+                <attrdef>The enrollment count of homeless students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>HOMpct</attrlabl>
+                <attrdef>The enrollment rate of homeless students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MIGcount</attrlabl>
+                <attrdef>The enrollment count of migrant students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MIGpct</attrlabl>
+                <attrdef>The enrollment rate of migrant students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SEDcount</attrlabl>
+                <attrdef>The enrollment count of students who were considered socioeconomically disadvantaged on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SEDpct</attrlabl>
+                <attrdef>The enrollment rate of students who were considered socioeconomically disadvantaged  on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SWDcount</attrlabl>
+                <attrdef>The enrollment count of students with disabilities on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SWDpct</attrlabl>
+                <attrdef>The enrollment rate of students with disabilities on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FRPMcount</attrlabl>
+                <attrdef>The enrollment count of students who were eligible for free/reduced price meals on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.
+</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FRPMpct</attrlabl>
+                <attrdef>The enrollment rate of students who were eligible for free/reduced price meals on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year' field.
+</attrdef>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20211004</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>California Department of Education</cntorg>
+                    <cntper>CDE GIS</cntper>
+                </cntorgp>
+                <cntpos>GIS Specialist</cntpos>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

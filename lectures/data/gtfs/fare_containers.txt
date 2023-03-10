@@ -1,0 +1,11 @@
+fare_container_id,fare_container_name,minimum_initial_purchase,amount,currency,rider_category_id
+tap,TAP,,2,USD,
+mobile_ticket,Mobile Ticket,,,,
+tap-senior,TAP,,0,USD,senior
+tap-discount,TAP,,0,USD,discount
+tap-medicare,TAP,,0,USD,medicare
+tap-youth,TAP,,0,USD,youth
+90-TAP-senior,90-Day TAP,,2,USD,senior
+90-TAP-discount,90-Day TAP,,2,USD,discount
+90-TAP-medicare,90-Day TAP,,2,USD,medicare
+90-TAP-youth,90-Day TAP,,2,USD,youth

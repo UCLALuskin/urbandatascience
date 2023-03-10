@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FeedTables" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:element name="FeedTables" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="agency.txt" msprop:Generator_RowEvHandlerName="AgencyRowChangeEventHandler" msprop:Generator_RowEvArgName="AgencyRowChangeEvent" msprop:Generator_TablePropName="agency" msprop:Generator_UserTableName="agency.txt" msprop:Generator_TableClassName="AgencyDataTable" msprop:Generator_RowClassName="AgencyRow" msprop:Generator_TableVarName="_agency">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="agency_id" msprop:Generator_ColumnPropNameInTable="AgencyIdColumn" msprop:Generator_ColumnVarNameInTable="_AgencyIdColumn" msprop:Generator_UserColumnName="agency_id" type="xs:string" />
+              <xs:element name="agency_name" msprop:Generator_ColumnPropNameInTable="AgencyNameColumn" msprop:Generator_ColumnVarNameInTable="_AgencyNameColumn" msprop:Generator_UserColumnName="agency_name" type="xs:string" minOccurs="0" />
+              <xs:element name="agency_url" msprop:Generator_ColumnPropNameInTable="AgencyUrlColumn" msprop:Generator_ColumnVarNameInTable="_AgencyUrlColumn" msprop:Generator_UserColumnName="agency_url" type="xs:string" minOccurs="0" />
+              <xs:element name="agency_timezone" msprop:Generator_ColumnPropNameInTable="AgencyTimeZoneColumn" msprop:Generator_ColumnVarNameInTable="_AgencyTimeZoneColumn" msprop:Generator_UserColumnName="agency_timezone" type="xs:string" minOccurs="0" />
+              <xs:element name="agency_lang" msprop:Generator_ColumnPropNameInTable="AgencyLangColumn" msprop:Generator_ColumnVarNameInTable="_AgencyLangColumn" msprop:Generator_UserColumnName="agency_lang" type="xs:string" minOccurs="0" />
+              <xs:element name="agency_phone" msprop:Generator_ColumnPropNameInTable="AgencyPhoneColumn" msprop:Generator_ColumnVarNameInTable="_AgencyPhoneColumn" msprop:Generator_UserColumnName="agency_phone" type="xs:string" minOccurs="0" />
+              <xs:element name="agency_fare_url" msprop:Generator_ColumnPropNameInTable="AgencyFareUrlColumn" msprop:Generator_ColumnVarNameInTable="_AgencyFareUrlColumn" msprop:Generator_UserColumnName="agency_fare_url" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="stops.txt" msprop:Generator_RowEvHandlerName="StopsRowChangeEventHandler" msprop:Generator_RowEvArgName="StopsRowChangeEvent" msprop:Generator_TablePropName="stops" msprop:Generator_UserTableName="stops.txt" msprop:Generator_TableClassName="StopsDataTable" msprop:Generator_RowClassName="StopsRow" msprop:Generator_TableVarName="_stops">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="stop_id" msprop:Generator_ColumnPropNameInTable="StopIdColumn" msprop:Generator_ColumnVarNameInTable="_StopIdColumn" msprop:Generator_UserColumnName="stop_id" type="xs:string" />
+              <xs:element name="stop_code" msprop:Generator_ColumnPropNameInTable="StopCodeColumn" msprop:Generator_ColumnVarNameInTable="_StopCodeColumn" msprop:Generator_UserColumnName="stop_code" type="xs:string" minOccurs="0" />
+              <xs:element name="stop_name" msprop:Generator_ColumnPropNameInTable="StopNameColumn" msprop:Generator_ColumnVarNameInTable="_StopNameColumn" msprop:Generator_UserColumnName="stop_name" type="xs:string" />
+              <xs:element name="stop_desc" msprop:Generator_ColumnPropNameInTable="StopDescColumn" msprop:Generator_ColumnVarNameInTable="_StopDescColumn" msprop:Generator_UserColumnName="stop_desc" type="xs:string" minOccurs="0" />
+              <xs:element name="stop_lat" msprop:Generator_ColumnPropNameInTable="StopLatColumn" msprop:Generator_ColumnVarNameInTable="_StopLatColumn" msprop:Generator_UserColumnName="stop_lat" type="xs:double" />
+              <xs:element name="stop_lon" msprop:Generator_ColumnPropNameInTable="StopLonColumn" msprop:Generator_ColumnVarNameInTable="_StopLonColumn" msprop:Generator_UserColumnName="stop_lon" type="xs:double" />
+              <xs:element name="zone_id" msprop:Generator_ColumnPropNameInTable="ZoneIdColumn" msprop:Generator_ColumnVarNameInTable="_ZoneIdColumn" msprop:Generator_UserColumnName="zone_id" type="xs:string" minOccurs="0" />
+              <xs:element name="stop_url" msprop:Generator_ColumnPropNameInTable="StopUrlColumn" msprop:Generator_ColumnVarNameInTable="_StopUrlColumn" msprop:Generator_UserColumnName="stop_url" type="xs:string" minOccurs="0" />
+              <xs:element name="location_type" msprop:Generator_ColumnPropNameInTable="LocationTypeColumn" msprop:Generator_ColumnVarNameInTable="_LocationTypeColumn" msprop:Generator_UserColumnName="location_type" type="xs:string" minOccurs="0" />
+              <xs:element name="parent_station" msprop:Generator_ColumnPropNameInTable="ParentStationColumn" msprop:Generator_ColumnVarNameInTable="_ParentStationColumn" msprop:Generator_UserColumnName="parent_station" type="xs:string" minOccurs="0" />
+              <xs:element name="stop_timezone" msprop:Generator_ColumnPropNameInTable="StopTimeZoneColumn" msprop:Generator_ColumnVarNameInTable="_StopTimeZoneColumn" msprop:Generator_UserColumnName="stop_timezone" type="xs:string" minOccurs="0" />
+              <xs:element name="wheelchair_boarding" msprop:Generator_ColumnPropNameInTable="WheelChairBoardingColumn" msprop:Generator_ColumnVarNameInTable="_WheelChairBoardingColumn" msprop:Generator_UserColumnName="wheelchair_boarding" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="routes.txt" msprop:Generator_RowEvHandlerName="RoutesRowChangeEventHandler" msprop:Generator_RowEvArgName="RoutesRowChangeEvent" msprop:Generator_TablePropName="routes" msprop:Generator_UserTableName="routes.txt" msprop:Generator_TableClassName="RoutesDataTable" msprop:Generator_RowClassName="RoutesRow" msprop:Generator_TableVarName="_routes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="route_id" msprop:Generator_ColumnPropNameInTable="RouteIdColumn" msprop:Generator_ColumnVarNameInTable="_RouteIdColumn" msprop:Generator_UserColumnName="route_id" type="xs:string" />
+              <xs:element name="agency_id" msprop:Generator_ColumnPropNameInTable="AgencyIdColumn" msprop:Generator_ColumnVarNameInTable="_AgencyIdColumn" msprop:Generator_UserColumnName="agency_id" type="xs:string" minOccurs="0" />
+              <xs:element name="route_short_name" msprop:Generator_ColumnPropNameInTable="RouteShortNameColumn" msprop:Generator_ColumnVarNameInTable="_RouteShortNameColumn" msprop:Generator_UserColumnName="route_short_name" type="xs:string" />
+              <xs:element name="route_long_name" msprop:Generator_ColumnPropNameInTable="RouteLongNameColumn" msprop:Generator_ColumnVarNameInTable="_RouteLongNameColumn" msprop:Generator_UserColumnName="route_long_name" type="xs:string" />
+              <xs:element name="route_desc" msprop:Generator_ColumnPropNameInTable="RouteDescColumn" msprop:Generator_ColumnVarNameInTable="_RouteDescColumn" msprop:Generator_UserColumnName="route_desc" type="xs:string" minOccurs="0" />
+              <xs:element name="route_type" msprop:Generator_ColumnPropNameInTable="RouteTypeColumn" msprop:Generator_ColumnVarNameInTable="_RouteTypeColumn" msprop:Generator_UserColumnName="route_type" type="xs:string" />
+              <xs:element name="route_url" msprop:Generator_ColumnPropNameInTable="RouteUrlColumn" msprop:Generator_ColumnVarNameInTable="_RouteUrlColumn" msprop:Generator_UserColumnName="route_url" type="xs:string" minOccurs="0" />
+              <xs:element name="route_color" msprop:Generator_ColumnPropNameInTable="RouteColorColumn" msprop:Generator_ColumnVarNameInTable="_RouteColorColumn" msprop:Generator_UserColumnName="route_color" type="xs:string" minOccurs="0" />
+              <xs:element name="route_text_color" msprop:Generator_ColumnPropNameInTable="RouteTextColorColumn" msprop:Generator_ColumnVarNameInTable="_RouteTextColorColumn" msprop:Generator_UserColumnName="route_text_color" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="trips.txt" msprop:Generator_RowEvHandlerName="TripsRowChangeEventHandler" msprop:Generator_RowEvArgName="TripsRowChangeEvent" msprop:Generator_TablePropName="trips" msprop:Generator_UserTableName="trips.txt" msprop:Generator_TableClassName="TripsDataTable" msprop:Generator_RowClassName="TripsRow" msprop:Generator_TableVarName="_trips">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="route_id" msprop:Generator_ColumnPropNameInTable="RouteIdColumn" msprop:Generator_ColumnVarNameInTable="_RouteIdColumn" msprop:Generator_UserColumnName="route_id" type="xs:string" />
+              <xs:element name="service_id" msprop:Generator_ColumnPropNameInTable="ServiceIdColumn" msprop:Generator_ColumnVarNameInTable="_ServiceIdColumn" msprop:Generator_UserColumnName="service_id" type="xs:string" />
+              <xs:element name="trip_id" msprop:Generator_ColumnPropNameInTable="TripIdColumn" msprop:Generator_ColumnVarNameInTable="_TripIdColumn" msprop:Generator_UserColumnName="trip_id" type="xs:string" />
+              <xs:element name="trip_headsign" msprop:Generator_ColumnPropNameInTable="TripHeadsignColumn" msprop:Generator_ColumnVarNameInTable="_TripHeadsignColumn" msprop:Generator_UserColumnName="trip_headsign" type="xs:string" minOccurs="0" />
+              <xs:element name="trip_short_name" msprop:Generator_ColumnPropNameInTable="TripShortNameColumn" msprop:Generator_ColumnVarNameInTable="_TripShortNameColumn" msprop:Generator_UserColumnName="trip_short_name" type="xs:string" minOccurs="0" />
+              <xs:element name="direction_id" msprop:Generator_ColumnPropNameInTable="DirectionIdColumn" msprop:Generator_ColumnVarNameInTable="_DirectionIdColumn" msprop:Generator_UserColumnName="direction_id" type="xs:string" minOccurs="0" />
+              <xs:element name="block_id" msprop:Generator_ColumnPropNameInTable="BlockIdColumn" msprop:Generator_ColumnVarNameInTable="_BlockIdColumn" msprop:Generator_UserColumnName="block_id" type="xs:string" minOccurs="0" />
+              <xs:element name="shape_id" msprop:Generator_ColumnPropNameInTable="ShapeIdColumn" msprop:Generator_ColumnVarNameInTable="_ShapeIdColumn" msprop:Generator_UserColumnName="shape_id" type="xs:string" minOccurs="0" />
+              <xs:element name="wheelchair_accessible" msprop:Generator_ColumnPropNameInTable="WheelchairAccessibleColumn" msprop:Generator_ColumnVarNameInTable="_WheelchairAccessibleColumn" msprop:Generator_UserColumnName="wheelchair_accessible" type="xs:string" minOccurs="0" />
+              <xs:element name="bikes_allowed" msprop:Generator_ColumnPropNameInTable="BikesAllowedColumn" msprop:Generator_ColumnVarNameInTable="_BikesAllowedColumn" msprop:Generator_UserColumnName="bikes_allowed" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="stop_times.txt" msprop:Generator_RowEvHandlerName="StopTimesRowChangeEventHandler" msprop:Generator_RowEvArgName="StopTimesRowChangeEvent" msprop:Generator_TablePropName="stop_times" msprop:Generator_UserTableName="stop_times.txt" msprop:Generator_TableClassName="StopTimesDataTable" msprop:Generator_RowClassName="StopTimesRow" msprop:Generator_TableVarName="_stop_times">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="trip_id" msprop:Generator_ColumnPropNameInTable="TripIdColumn" msprop:Generator_ColumnVarNameInTable="_TripIdColumn" msprop:Generator_UserColumnName="trip_id" type="xs:string" />
+              <xs:element name="arrival_time" msprop:Generator_ColumnPropNameInTable="ArrivalTimeColumn" msprop:Generator_ColumnVarNameInTable="_ArrivalTimeColumn" msprop:Generator_UserColumnName="arrival_time" type="xs:duration" minOccurs="0" />
+              <xs:element name="departure_time" msprop:Generator_ColumnPropNameInTable="DepartureTimeColumn" msprop:Generator_ColumnVarNameInTable="_DepartureTimeColumn" msprop:Generator_UserColumnName="departure_time" type="xs:duration" minOccurs="0" />
+              <xs:element name="stop_id" msprop:Generator_ColumnPropNameInTable="StopIdColumn" msprop:Generator_ColumnVarNameInTable="_StopIdColumn" msprop:Generator_UserColumnName="stop_id" type="xs:string" />
+              <xs:element name="stop_sequence" msprop:Generator_ColumnPropNameInTable="StopSequenceColumn" msprop:Generator_ColumnVarNameInTable="_StopSequenceColumn" msprop:Generator_UserColumnName="stop_sequence" type="xs:int" />
+              <xs:element name="stop_headsign" msprop:Generator_ColumnPropNameInTable="StopHeadsignColumn" msprop:Generator_ColumnVarNameInTable="_StopHeadsignColumn" msprop:Generator_UserColumnName="stop_headsign" type="xs:string" minOccurs="0" />
+              <xs:element name="pickup_type" msprop:Generator_ColumnPropNameInTable="PickupTypeColumn" msprop:Generator_ColumnVarNameInTable="_PickupTypeColumn" msprop:Generator_UserColumnName="pickup_type" type="xs:string" minOccurs="0" />
+              <xs:element name="drop_off_type" msprop:Generator_ColumnPropNameInTable="DropoffTypeColumn" msprop:Generator_ColumnVarNameInTable="_DropoffTypeColumn" msprop:Generator_UserColumnName="drop_off_type" type="xs:string" minOccurs="0" />
+              <xs:element name="shape_dist_traveled" msprop:Generator_ColumnPropNameInTable="ShapeDistTraveledColumn" msprop:Generator_ColumnVarNameInTable="_ShapeDistTraveledColumn" msprop:Generator_UserColumnName="shape_dist_traveled" type="xs:string" minOccurs="0" />
+              <xs:element name="timepoint" msprop:Generator_ColumnPropNameInTable="TimepointColumn" msprop:Generator_ColumnVarNameInTable="_TimepointColumn" msprop:Generator_UserColumnName="timepoint" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="calendar.txt" msprop:Generator_RowEvHandlerName="CalendarRowChangeEventHandler" msprop:Generator_RowEvArgName="CalendarRowChangeEvent" msprop:Generator_TablePropName="calendar" msprop:Generator_UserTableName="calendar.txt" msprop:Generator_TableClassName="CalendarDataTable" msprop:Generator_RowClassName="CalendarRow" msprop:Generator_TableVarName="_calendar">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="service_id" msprop:Generator_ColumnPropNameInTable="ServiceIdColumn" msprop:Generator_ColumnVarNameInTable="_ServiceIdColumn" msprop:Generator_UserColumnName="service_id" type="xs:string" />
+              <xs:element name="monday" msprop:Generator_UserColumnName="monday" msprop:Generator_ColumnVarNameInTable="_MondayColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="tuesday" msprop:Generator_ColumnPropNameInTable="TuesdayColumn" msprop:Generator_ColumnVarNameInTable="_TuesdayColumn" msprop:Generator_UserColumnName="tuesday" type="xs:boolean" minOccurs="0" />
+              <xs:element name="wednesday" msprop:Generator_ColumnPropNameInTable="WednesdayColumn" msprop:Generator_ColumnVarNameInTable="_WednesdayColumn" msprop:Generator_UserColumnName="wednesday" type="xs:boolean" minOccurs="0" />
+              <xs:element name="thursday" msprop:Generator_ColumnPropNameInTable="ThursdayColumn" msprop:Generator_ColumnVarNameInTable="_ThursdayColumn" msprop:Generator_UserColumnName="thursday" type="xs:boolean" minOccurs="0" />
+              <xs:element name="friday" msprop:Generator_ColumnPropNameInTable="FridayColumn" msprop:Generator_ColumnVarNameInTable="_FridayColumn" msprop:Generator_UserColumnName="friday" type="xs:boolean" minOccurs="0" />
+              <xs:element name="saturday" msprop:Generator_ColumnPropNameInTable="SaturdayColumn" msprop:Generator_ColumnVarNameInTable="_SaturdayColumn" msprop:Generator_UserColumnName="saturday" type="xs:boolean" minOccurs="0" />
+              <xs:element name="sunday" msprop:Generator_ColumnPropNameInTable="SundayColumn" msprop:Generator_ColumnVarNameInTable="_SundayColumn" msprop:Generator_UserColumnName="sunday" type="xs:boolean" minOccurs="0" />
+              <xs:element name="start_date" msprop:Generator_ColumnPropNameInTable="StartDateColumn" msprop:Generator_ColumnVarNameInTable="_StartDateColumn" msprop:Generator_UserColumnName="start_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="end_date" msprop:Generator_ColumnPropNameInTable="EndDateColumn" msprop:Generator_ColumnVarNameInTable="_EndDateColumn" msprop:Generator_UserColumnName="end_date" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="calendar_dates.txt" msprop:Generator_RowEvHandlerName="CalendarDatesRowChangeEventHandler" msprop:Generator_RowEvArgName="CalendarDatesRowChangeEvent" msprop:Generator_TablePropName="calendar_dates" msprop:Generator_UserTableName="calendar_dates.txt" msprop:Generator_TableClassName="CalendarDatesDataTable" msprop:Generator_RowClassName="CalendarDatesRow" msprop:Generator_TableVarName="_calendar_dates">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="service_id" msprop:Generator_ColumnPropNameInTable="ServiceIdColumn" msprop:Generator_ColumnVarNameInTable="_ServiceIdColumn" msprop:Generator_UserColumnName="service_id" type="xs:string" minOccurs="0" />
+              <xs:element name="date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_ColumnVarNameInTable="_DateColumn" msprop:Generator_UserColumnName="date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="exception_type" msprop:Generator_ColumnPropNameInTable="ExceptionTypeColumn" msprop:Generator_ColumnVarNameInTable="_ExceptionTypeColumn" msprop:Generator_UserColumnName="exception_type" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="fare_attributes.txt" msprop:Generator_RowEvHandlerName="FareAttributesRowChangeEventHandler" msprop:Generator_RowEvArgName="FareAttributesRowChangeEvent" msprop:Generator_TablePropName="fare_attributes" msprop:Generator_UserTableName="fare_attributes.txt" msprop:Generator_TableClassName="FareAttributesDataTable" msprop:Generator_RowClassName="FareAttributesRow" msprop:Generator_TableVarName="_fare_attributes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fare_id" msprop:Generator_ColumnPropNameInTable="FareIdColumn" msprop:Generator_ColumnVarNameInTable="_FareIdColumn" msprop:Generator_UserColumnName="fare_id" type="xs:string" />
+              <xs:element name="price" msprop:Generator_ColumnPropNameInTable="PriceColumn" msprop:Generator_ColumnVarNameInTable="_PriceColumn" msprop:Generator_UserColumnName="price" type="xs:double" minOccurs="0" />
+              <xs:element name="currency_type" msprop:Generator_ColumnPropNameInTable="CurrencyTypeColumn" msprop:Generator_ColumnVarNameInTable="_CurrencyTypeColumn" msprop:Generator_UserColumnName="currency_type" type="xs:string" minOccurs="0" />
+              <xs:element name="payment_method" msprop:Generator_ColumnPropNameInTable="PaymentMethodColumn" msprop:Generator_ColumnVarNameInTable="_PaymentMethodColumn" msprop:Generator_UserColumnName="payment_method" type="xs:string" minOccurs="0" />
+              <xs:element name="transfers" msprop:Generator_ColumnPropNameInTable="TransfersColumn" msprop:Generator_ColumnVarNameInTable="_TransfersColumn" msprop:Generator_UserColumnName="transfers" type="xs:string" minOccurs="0" />
+              <xs:element name="transfer_duration" msprop:Generator_ColumnPropNameInTable="TransferDurationColumn" msprop:Generator_ColumnVarNameInTable="_TransferDurationColumn" msprop:Generator_UserColumnName="transfer_duration" type="xs:duration" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="fare_rules.txt" msprop:Generator_RowEvHandlerName="FareRulesRowChangeEventHandler" msprop:Generator_RowEvArgName="FareRulesRowChangeEvent" msprop:Generator_TablePropName="fare_rules" msprop:Generator_UserTableName="fare_rules.txt" msprop:Generator_TableClassName="FareRulesDataTable" msprop:Generator_RowClassName="FareRulesRow" msprop:Generator_TableVarName="_fare_rules">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fare_id" msprop:Generator_ColumnPropNameInTable="FareIdColumn" msprop:Generator_ColumnVarNameInTable="_FareIdColumn" msprop:Generator_UserColumnName="fare_id" type="xs:string" minOccurs="0" />
+              <xs:element name="route_id" msprop:Generator_ColumnPropNameInTable="RouteIdColumn" msprop:Generator_ColumnVarNameInTable="_RouteIdColumn" msprop:Generator_UserColumnName="route_id" type="xs:string" minOccurs="0" />
+              <xs:element name="origin_id" msprop:Generator_ColumnPropNameInTable="OriginIdColumn" msprop:Generator_ColumnVarNameInTable="_OriginIdColumn" msprop:Generator_UserColumnName="origin_id" type="xs:string" minOccurs="0" />
+              <xs:element name="destination_id" msprop:Generator_ColumnPropNameInTable="DestinationIdColumn" msprop:Generator_ColumnVarNameInTable="_DestinationIdColumn" msprop:Generator_UserColumnName="destination_id" type="xs:string" minOccurs="0" />
+              <xs:element name="contains_id" msprop:Generator_ColumnPropNameInTable="ContainsIdColumn" msprop:Generator_ColumnVarNameInTable="_ContainsIdColumn" msprop:Generator_UserColumnName="contains_id" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="shapes.txt" msprop:Generator_RowEvHandlerName="ShapesRowChangeEventHandler" msprop:Generator_RowEvArgName="ShapesRowChangeEvent" msprop:Generator_TablePropName="shapes" msprop:Generator_UserTableName="shapes.txt" msprop:Generator_TableClassName="ShapesDataTable" msprop:Generator_RowClassName="ShapesRow" msprop:Generator_TableVarName="_shapes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="shape_id" msprop:Generator_ColumnPropNameInTable="ShapeIdColumn" msprop:Generator_ColumnVarNameInTable="_ShapeIdColumn" msprop:Generator_UserColumnName="shape_id" type="xs:string" />
+              <xs:element name="shape_pt_lat" msprop:Generator_ColumnPropNameInTable="ShapePtLatColumn" msprop:Generator_ColumnVarNameInTable="_ShapePtLatColumn" msprop:Generator_UserColumnName="shape_pt_lat" type="xs:double" />
+              <xs:element name="shape_pt_lon" msprop:Generator_ColumnPropNameInTable="ShapePtLonColumn" msprop:Generator_ColumnVarNameInTable="_ShapePtLonColumn" msprop:Generator_UserColumnName="shape_pt_lon" type="xs:double" />
+              <xs:element name="shape_pt_sequence" msprop:Generator_ColumnPropNameInTable="ShapePtSequenceColumn" msprop:Generator_ColumnVarNameInTable="_ShapePtSequenceColumn" msprop:Generator_UserColumnName="shape_pt_sequence" type="xs:int" />
+              <xs:element name="shape_dist_traveled" msprop:Generator_ColumnPropNameInTable="ShapeDistTraveledColumn" msprop:Generator_ColumnVarNameInTable="_ShapeDistTraveledColumn" msprop:Generator_UserColumnName="shape_dist_traveled" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="frequencies.txt" msprop:Generator_RowEvHandlerName="FrequenciesRowChangeEventHandler" msprop:Generator_RowEvArgName="FrequenciesRowChangeEvent" msprop:Generator_TablePropName="frequencies" msprop:Generator_UserTableName="frequencies.txt" msprop:Generator_TableClassName="FrequenciesDataTable" msprop:Generator_RowClassName="FrequenciesRow" msprop:Generator_TableVarName="_frequencies">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="trip_id" msprop:Generator_ColumnPropNameInTable="TripIdColumn" msprop:Generator_ColumnVarNameInTable="_TripIdColumn" msprop:Generator_UserColumnName="trip_id" type="xs:string" minOccurs="0" />
+              <xs:element name="start_time" msprop:Generator_ColumnPropNameInTable="StartTimeColumn" msprop:Generator_ColumnVarNameInTable="_StartTimeColumn" msprop:Generator_UserColumnName="start_time" type="xs:duration" minOccurs="0" />
+              <xs:element name="end_time" msprop:Generator_ColumnPropNameInTable="EndTimeColumn" msprop:Generator_ColumnVarNameInTable="_EndTimeColumn" msprop:Generator_UserColumnName="end_time" type="xs:duration" minOccurs="0" />
+              <xs:element name="headway_secs" msprop:Generator_ColumnPropNameInTable="HeadwaySecsColumn" msprop:Generator_ColumnVarNameInTable="_HeadwaySecsColumn" msprop:Generator_UserColumnName="headway_secs" type="xs:int" minOccurs="0" />
+              <xs:element name="exact_times" msprop:Generator_ColumnPropNameInTable="ExactTimesColumn" msprop:Generator_ColumnVarNameInTable="_ExactTimesColumn" msprop:Generator_UserColumnName="exact_times" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="transfers.txt" msprop:Generator_RowEvHandlerName="TransfersRowChangeEventHandler" msprop:Generator_RowEvArgName="TransfersRowChangeEvent" msprop:Generator_TablePropName="transfers" msprop:Generator_UserTableName="transfers.txt" msprop:Generator_TableClassName="TransfersDataTable" msprop:Generator_RowClassName="TransfersRow" msprop:Generator_TableVarName="_transfers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="from_stop_id" msprop:Generator_ColumnPropNameInTable="FromStopIdColumn" msprop:Generator_ColumnVarNameInTable="_FromStopIdColumn" msprop:Generator_UserColumnName="from_stop_id" type="xs:string" minOccurs="0" />
+              <xs:element name="to_stop_id" msprop:Generator_ColumnPropNameInTable="ToStopIdColumn" msprop:Generator_ColumnVarNameInTable="_ToStopIdColumn" msprop:Generator_UserColumnName="to_stop_id" type="xs:string" minOccurs="0" />
+              <xs:element name="transfer_type" msprop:Generator_ColumnPropNameInTable="TransferTypeColumn" msprop:Generator_ColumnVarNameInTable="_TransferTypeColumn" msprop:Generator_UserColumnName="transfer_type" type="xs:string" minOccurs="0" />
+              <xs:element name="min_transfer_time" msprop:Generator_ColumnPropNameInTable="MinTransferTimeColumn" msprop:Generator_ColumnVarNameInTable="_MinTransferTimeColumn" msprop:Generator_UserColumnName="min_transfer_time" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="feed_info.txt" msprop:Generator_RowEvHandlerName="FeedInfoRowChangeEventHandler" msprop:Generator_RowEvArgName="FeedInfoRowChangeEvent" msprop:Generator_TablePropName="feed_info" msprop:Generator_UserTableName="feed_info.txt" msprop:Generator_TableClassName="FeedInfoDataTable" msprop:Generator_RowClassName="FeedInfoRow" msprop:Generator_TableVarName="_feed_info">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="feed_publisher_name" msprop:Generator_ColumnPropNameInTable="FeedPublisherNameColumn" msprop:Generator_ColumnVarNameInTable="_FeedPublisherNameColumn" msprop:Generator_UserColumnName="feed_publisher_name" type="xs:string" />
+              <xs:element name="feed_publisher_url" msprop:Generator_ColumnPropNameInTable="FeedPublisherUrlColumn" msprop:Generator_ColumnVarNameInTable="_FeedPublisherUrlColumn" msprop:Generator_UserColumnName="feed_publisher_url" type="xs:string" />
+              <xs:element name="feed_lang" msprop:Generator_ColumnPropNameInTable="FeedLangColumn" msprop:Generator_ColumnVarNameInTable="_FeedLangColumn" msprop:Generator_UserColumnName="feed_lang" type="xs:string" />
+              <xs:element name="feed_start_date" msprop:Generator_ColumnPropNameInTable="FeedStartDateColumn" msprop:Generator_ColumnVarNameInTable="_FeedStartDateColumn" msprop:Generator_UserColumnName="feed_start_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="feed_end_date" msprop:Generator_ColumnPropNameInTable="FeedEndDateColumn" msprop:Generator_ColumnVarNameInTable="_FeedEndDateColumn" msprop:Generator_UserColumnName="feed_end_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="feed_version" msprop:Generator_ColumnPropNameInTable="FeedVersionColumn" msprop:Generator_ColumnVarNameInTable="_FeedVersionColumn" msprop:Generator_UserColumnName="feed_version" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="services" msprop:Generator_RowEvHandlerName="ServicesRowChangeEventHandler" msprop:Generator_RowEvArgName="ServicesRowChangeEvent" msprop:Generator_UserTableName="services" msprop:Generator_TableClassName="ServicesDataTable" msprop:Generator_RowClassName="ServicesRow" msprop:Generator_TableVarName="_services">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="service_id" msprop:Generator_ColumnPropNameInTable="ServiceIdColumn" msprop:Generator_ColumnVarNameInTable="_service_id" msprop:Generator_UserColumnName="service_id" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="fare_containers.txt">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fare_container_id" type="xs:string" minOccurs="0" />
+              <xs:element name="fare_container_name" type="xs:string" minOccurs="0" />
+              <xs:element name="minimum_initial_purchase" type="xs:decimal" minOccurs="0" />
+              <xs:element name="amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="currency" type="xs:string" minOccurs="0" />
+              <xs:element name="rider_category_id" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="fare_leg_rules.txt">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="leg_group_id" type="xs:string" minOccurs="0" />
+              <xs:element name="fare_leg_name" type="xs:string" minOccurs="0" />
+              <xs:element name="network_id" type="xs:string" minOccurs="0" />
+              <xs:element name="from_area_id" type="xs:string" minOccurs="0" />
+              <xs:element name="contains_area_id" type="xs:string" minOccurs="0" />
+              <xs:element name="to_area_id" type="xs:string" minOccurs="0" />
+              <xs:element name="is_symmetrical" type="xs:string" minOccurs="0" />
+              <xs:element name="from_timeframe_id" type="xs:string" minOccurs="0" />
+              <xs:element name="to_timeframe_id" type="xs:string" minOccurs="0" />
+              <xs:element name="min_distance" type="xs:int" minOccurs="0" />
+              <xs:element name="max_distance" type="xs:int" minOccurs="0" />
+              <xs:element name="distance_type" type="xs:string" minOccurs="0" />
+              <xs:element name="service_id" type="xs:string" minOccurs="0" />
+              <xs:element name="min_amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="max_amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="fare_product_id" type="xs:string" minOccurs="0" />
+              <xs:element name="fare_container_id" type="xs:string" minOccurs="0" />
+              <xs:element name="rider_category_id" type="xs:string" minOccurs="0" />
+              <xs:element name="eligible_cap_id" type="xs:string" minOccurs="0" />
+              <xs:element name="amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="currency" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="fare_products.txt">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fare_product_id" type="xs:string" minOccurs="0" />
+              <xs:element name="fare_product_name" type="xs:string" minOccurs="0" />
+              <xs:element name="rider_category_id" type="xs:string" minOccurs="0" />
+              <xs:element name="fare_container_id" type="xs:string" minOccurs="0" />
+              <xs:element name="bundle_amount" type="xs:int" minOccurs="0" />
+              <xs:element name="duration_start" type="xs:string" minOccurs="0" />
+              <xs:element name="duration_amount" type="xs:int" minOccurs="0" />
+              <xs:element name="duration_unit" type="xs:string" minOccurs="0" />
+              <xs:element name="duration_type" type="xs:string" minOccurs="0" />
+              <xs:element name="offset_amount" type="xs:int" minOccurs="0" />
+              <xs:element name="offset_unit" type="xs:string" minOccurs="0" />
+              <xs:element name="service_id" type="xs:string" minOccurs="0" />
+              <xs:element name="timeframe_id" type="xs:string" minOccurs="0" />
+              <xs:element name="timeframe_type" type="xs:string" minOccurs="0" />
+              <xs:element name="cap_required" type="xs:string" minOccurs="0" />
+              <xs:element name="eligible_cap_id" type="xs:string" minOccurs="0" />
+              <xs:element name="amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="min_amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="max_amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="currency" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rider_categories.txt">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="rider_category_id" type="xs:string" minOccurs="0" />
+              <xs:element name="rider_category_name" type="xs:string" minOccurs="0" />
+              <xs:element name="min_age" type="xs:int" minOccurs="0" />
+              <xs:element name="max_age" type="xs:int" minOccurs="0" />
+              <xs:element name="eligibility_url" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//agency.txt" />
+      <xs:field xpath="agency_id" />
+    </xs:unique>
+    <xs:unique name="stops.txt_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//stops.txt" />
+      <xs:field xpath="stop_id" />
+    </xs:unique>
+    <xs:unique name="routes.txt_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//routes.txt" />
+      <xs:field xpath="route_id" />
+    </xs:unique>
+    <xs:unique name="trips.txt_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//trips.txt" />
+      <xs:field xpath="trip_id" />
+    </xs:unique>
+    <xs:unique name="fare_attributes.txt_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//fare_attributes.txt" />
+      <xs:field xpath="fare_id" />
+    </xs:unique>
+    <xs:unique name="shapes.txt_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//shapes.txt" />
+      <xs:field xpath="shape_id" />
+      <xs:field xpath="shape_pt_sequence" />
+    </xs:unique>
+    <xs:unique name="services_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//services" />
+      <xs:field xpath="service_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
