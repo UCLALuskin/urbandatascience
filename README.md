@@ -16,7 +16,7 @@ See the course videos, readings, and other materials at https://urbandatascience
 3. [Wrangling](https://github.com/UCLALuskin/urbandatascience/tree/main/lectures/3%20Wrangling)
 4. [Spatial relations](https://github.com/UCLALuskin/urbandatascience/tree/main/lectures/4%20Spatial%20relations)
 5. [Classification part 1](https://github.com/UCLALuskin/urbandatascience/tree/main/lectures/5%20Classification%20part%201)
-6. [classification part 2](https://github.com/UCLALuskin/urbandatascience/tree/main/lectures/6%20Classification%20part%202)
+6. [Classification part 2](https://github.com/UCLALuskin/urbandatascience/tree/main/lectures/6%20Classification%20part%202)
 7. [Clustering](https://github.com/UCLALuskin/urbandatascience/tree/main/lectures/7%20Clustering)
 8. [Parsing text](https://github.com/UCLALuskin/urbandatascience/tree/main/lectures/8%20Parsing%20text)
 9. [Natural language processing](https://github.com/UCLALuskin/urbandatascience/tree/main/lectures/9%20Natural%20language%20processing)
