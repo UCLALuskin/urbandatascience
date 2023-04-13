@@ -1,0 +1,1 @@
+This directory holds temporary files that will be created as you run the code.
