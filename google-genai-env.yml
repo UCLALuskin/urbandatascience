@@ -1,0 +1,17 @@
+name: uds
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - defaults::python    
+  - defaults::notebook
+  - defaults::jupyterlab
+  - defaults::pip
+  - requests
+  - bs4
+  - matplotlib
+  - seaborn
+  - openpyxl
+  # install google-genai with conda separately
+  - pip:
+    - pygris  # conda support forthcoming
