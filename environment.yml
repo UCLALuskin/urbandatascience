@@ -3,10 +3,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - defaults::python    
-  - defaults::notebook
-  - defaults::jupyterlab
-  - defaults::pip
+  - python    
+  - jupyterlab
+  - pip
   - cenpy  
   - numpy    
   - pandas 
@@ -20,7 +19,7 @@ dependencies:
   - PyPDF2
   - pdfminer.six
   - nltk
-  - gensim
+  - gensim==4.3.3
   - openpyxl
   - pyLDAvis
   - textblob

@@ -3,10 +3,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - defaults::python    
-  - defaults::notebook
-  - defaults::jupyterlab
-  - defaults::pip
+  - python    
+  - jupyterlab
+  - pip
   - requests
   - bs4
   - matplotlib
@@ -15,3 +14,4 @@ dependencies:
   # install google-genai with conda separately
   - pip:
     - pygris  # conda support forthcoming
+    - meta-ai-api
